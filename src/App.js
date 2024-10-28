@@ -1,4 +1,5 @@
 import Intro from "./components/intro/index";
+import "./app.scss";
 
 function App() {
     return (
