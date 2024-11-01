@@ -5,6 +5,7 @@ import { FaUser } from "react-icons/fa";
 import heroImage from "../../../images/Hero-image.svg";
 import hand from "../../../images/hand.png";
 import CallToAction from "../../shared/CallToAction";
+import { scrollToSection } from "../../utils/helpers";
 
 import "./style.scss";
 
@@ -24,11 +25,15 @@ const IntroContent = () => {
                         <span className="big-text">Irshad Ali</span>
                     </h1>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500
+                        I’m a frontend developer with a passion for creating
+                        responsive and user-friendly websites. I work with HTML,
+                        CSS, and JavaScript, along with frameworks like React,
+                        to build smooth and interactive experiences.
                     </p>
-                    <CallToAction text="Contact me" />
+                    <CallToAction
+                        text="Contact Me"
+                        action={() => scrollToSection("contact")}
+                    />
                 </div>
                 <div className="right-col">
                     <img

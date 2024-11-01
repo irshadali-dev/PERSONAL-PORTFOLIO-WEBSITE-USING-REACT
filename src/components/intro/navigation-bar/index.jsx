@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./style.scss";
 import CallToAction from "../../shared/CallToAction/index";
-import logo from "../../../images/irshad-logo.png";
+import logo from "../../../images/irshad-logo-2.png";
 import { scrollToSection } from "../../utils/helpers";
 
 import { CgMenuRight } from "react-icons/cg";
@@ -52,12 +52,12 @@ const Navigation = () => {
                 >
                     Portfolio
                 </span>
-                <span
+                {/* <span
                     className="navigation-item"
                     onClick={() => menuItemClickHandler("blogs")}
                 >
                     Blogs & Article
-                </span>
+                </span> */}
                 <CallToAction
                     text="Contact Me"
                     action={() => menuItemClickHandler("contact")}

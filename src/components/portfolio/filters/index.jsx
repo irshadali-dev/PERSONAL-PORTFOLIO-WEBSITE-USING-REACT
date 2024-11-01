@@ -7,20 +7,16 @@ const filtersData = [
         id: "all",
     },
     {
-        name: "Products",
-        id: "product",
+        name: "React",
+        id: "react",
     },
     {
-        name: "Web Pages",
-        id: "web-page",
+        name: "Java Script",
+        id: "java-script",
     },
     {
-        name: "Web Apps",
-        id: "web-app",
-    },
-    {
-        name: "Mobile Apps",
-        id: "mobile-app",
+        name: "Html & Css",
+        id: "html",
     },
 ];
 

@@ -8,7 +8,7 @@
     margin-right: -10px;
     justify-content: center;
     @include small-screen {
-        height: 570px;
+        height: auto;
         justify-content: unset;
     }
     .showcase-item {

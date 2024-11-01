@@ -12,7 +12,7 @@ function App() {
             <Intro />
             <Skills />
             <Portfolio />
-            <Blogs />
+            {/* <Blogs /> */}
             <Contact />
             <Footer />
         </div>

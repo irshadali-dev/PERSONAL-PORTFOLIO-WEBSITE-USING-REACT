@@ -14,7 +14,7 @@ import SocialIcon from "./social-icon";
 import { scrollToSection } from "../utils/helpers";
 
 import Section from "../shared/section";
-import Logo from "../../images/irshad-logo.png";
+import Logo from "../../images/irshad-logo-2.png";
 
 const Footer = () => {
     return (
@@ -42,12 +42,12 @@ const Footer = () => {
                     >
                         Portfolio
                     </li>
-                    <li
+                    {/* <li
                         className="footer-menu-item"
                         onClick={() => scrollToSection("blogs")}
                     >
                         Blogs & Articles
-                    </li>
+                    </li> */}
                     <li
                         className="footer-menu-item"
                         onClick={() => scrollToSection("contact")}
@@ -59,28 +59,28 @@ const Footer = () => {
                     <SocialIcon
                         color="#FF0000"
                         icon={<FaYoutube />}
-                        link=""
+                        link="#"
                     />
 
                     <SocialIcon
                         color="#0D2636"
                         icon={<FaGithub />}
-                        link=""
+                        link="https://github.com/irshadali-dev"
                     />
                     <SocialIcon
                         color="#0A66C2"
                         icon={<FaLinkedinIn />}
-                        link=""
+                        link="https://www.linkedin.com/in/irshadali7689/"
                     />
                     <SocialIcon
                         color="#F2740d"
                         icon={<FaStackOverflow />}
-                        link=""
+                        link="#"
                     />
                     <SocialIcon
                         color="#E84C88"
                         icon={<FaInstagram />}
-                        link=""
+                        link="https://www.instagram.com/alamirshad7689/"
                     />
                 </div>
                 <div className="bottom-bar">
