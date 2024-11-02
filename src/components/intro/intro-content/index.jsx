@@ -1,6 +1,6 @@
 import React from "react";
 import { BsAwardFill } from "react-icons/bs";
-import { FaUser } from "react-icons/fa";
+import { HiMiniHeart } from "react-icons/hi2";
 
 import heroImage from "../../../images/Hero-image.svg";
 import hand from "../../../images/hand.png";
@@ -50,11 +50,11 @@ const IntroContent = () => {
 
                     <div className="highlights verticle">
                         <div className="icon">
-                            <FaUser />
+                            <HiMiniHeart />
                         </div>
                         <div className="text">
-                            <span>4k+</span>
-                            Happy Customers
+                            <span>Passion</span>
+                            for web design
                         </div>
                     </div>
                 </div>
