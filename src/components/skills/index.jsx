@@ -35,6 +35,7 @@ const Skills = () => {
                     <CallToAction
                         icon={<AiOutlineCloudDownload />}
                         text="Download CV"
+                        file="/public/IrshadResumeReactDevloper.pdf"
                     />
                 </div>
             </div>

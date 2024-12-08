@@ -31,8 +31,13 @@ const IntroContent = () => {
                         to build smooth and interactive experiences.
                     </p>
                     <CallToAction
-                        text="Contact Me"
-                        action={() => scrollToSection("contact")}
+                        text="Check Out My GitHub Profile"
+                        action={() =>
+                            window.open(
+                                "https://github.com/irshadali-dev",
+                                "_blank"
+                            )
+                        }
                     />
                 </div>
                 <div className="right-col">
